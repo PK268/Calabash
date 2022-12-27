@@ -164,7 +164,6 @@
         }
     },
     "order": [
-        "image_banner",
         "rich_text",
         "featured_collection",
         "collage",
