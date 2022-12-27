@@ -133,7 +133,6 @@
         }
     },
     "order": [
-        "rich_text",
         "featured_collection",
         "collage",
         "video",
