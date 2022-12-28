@@ -38,7 +38,7 @@
     }
 }
 
-.notebook-parent {
+.notebook-parent::after{
     visibility: visible;
     opacity: 1;
     content: '';
