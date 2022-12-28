@@ -38,9 +38,9 @@
     }
 }
 
-.notebook-parent::after{
-    visibility: hidden;
-    opacity: 0;
+.notebook-parent{
+    visibility: visible;
+    opacity: 1;
     content: '';
     display: block;
     position: fixed;
