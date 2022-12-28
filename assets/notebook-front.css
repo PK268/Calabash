@@ -5,6 +5,7 @@
 
     100% {
         width: 0
+        
     }
 }
 
@@ -50,4 +51,8 @@
     height: 100%;
     background-color: rgba(0,0,0,.6);
     z-index: 2;
+}
+.notebook-front::after .notebook-parent{
+    visibility:hidden;
+    opacity: 0;
 }
