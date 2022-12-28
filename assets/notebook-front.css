@@ -1,0 +1,28 @@
+@keyframes notebook {
+    0% {
+        width: 50%
+    }
+
+    100% {
+        width: 0
+    }
+}
+
+.notebook-front {
+    background-color: #fffaee;
+    width: 50%;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    float: left;
+    animation-name: notebook;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 999
+}
