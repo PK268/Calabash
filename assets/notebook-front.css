@@ -39,8 +39,8 @@
 }
 
 .notebook-parent::after{
-    visibility: visible;
-    opacity: 1;
+    visibility: hidden;
+    opacity: 0;
     content: '';
     display: block;
     position: fixed;
