@@ -39,7 +39,7 @@
     }
 }
 
-.notebook-parent::after {
+.notebook-parent {
     visibility: hidden;
     opacity: 0;
     content: '';
